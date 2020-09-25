@@ -1,0 +1,14 @@
+[
+  {
+    "regex": "(Hello) World",
+    "replace": "\\1 Code Migrator",
+    "include": "test/dummy/**/*",
+    "exclude": ""
+  },
+  {
+    "regex": "(Hello) World",
+    "replace": "\\1 Code Migrator",
+    "include": "",
+    "exclude": "test/**/*.{rb,json}, code_migrator.gemspec, CODE_OF_CONDUCT.md, bin/**/*, README.md, Rakefile, lib/**/*, Gemfile, Gemfile.lock, LICENSE.txt"
+  }
+]
