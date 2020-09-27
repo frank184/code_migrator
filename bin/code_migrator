@@ -1,2 +1,6 @@
 #!/usr/bin/env ruby
 
+require "bundler/setup"
+require "code_migrator"
+
+CodeMigrator::Cli.parse(ARGV)
